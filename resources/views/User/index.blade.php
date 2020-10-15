@@ -23,16 +23,20 @@
                         <table class="table table-striped task-table">
                             <!-- Table Headings -->
                             <thead>
-                            <th width="25%">Title</th>
-                            <th width="40%">Content</th>
-                            <th width="15%">Created</th>
-                            <th width="20%">Action</th>
+                            <th width="5%">ID</th>
+                            <th width="25%">Name</th>
+                            <th width="10%">Age</th>
+                            <th width="10%">Sex</th>
+                            <th width="50%">Email</th>
                             </thead>
 
                             <!-- Table Body -->
                             <tbody>
                             @foreach($user as $user)
                                 <tr>
+                                    <td class="table-text">
+                                        <div>{{$user->id}}</div>
+                                    </td>
                                     <td class="table-text">
                                         <div>{{$user->name}}</div>
                                     </td>
