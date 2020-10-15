@@ -19,7 +19,7 @@ class CreateUserDataTable extends Migration
             $table->integer('age')->unsigned();
             $table->string('sex');
             $table->string('email')->unique();
-            $table->timestamps();
+            //$table->timestamps();
         });
     }
 
