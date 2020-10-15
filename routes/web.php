@@ -2,6 +2,7 @@
 
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/user', 'UserController@index')->name('user.index');
-Route::get('/user/details/{id}', 'UserController@details')->name('user.details');
-Route::get('/user/add', 'UserController@add')->name('user.add');
-Route::post('/user/insert', 'UserController@insert')->name('user.insert');
-Route::get('/user/edit/{id}', 'UserController@edit')->name('user.edit');
-Route::post('/user/update/{id}', 'UserController@update')->name('user.update');
-Route::get('/user/delete/{id}', 'UserController@delete')->name('user.delete');
+Route::get('/user', [UserController::class, 'index'])->name('user.index');
+Route::get('/user/details/{id}', [UserController::class, 'details'])->name('user.details');
+Route::get('/user/add', [UserController::class, 'add'])->name('user.add');
+Route::post('/user/insert', [UserController::class, 'insert'])->name('user.insert');
+Route::get('/user/edit/{id}', [UserController::class, 'edit'])->name('user.edit');
+Route::post('/user/update/{id}', [UserController::class, 'update'])->name('user.update');
+Route::get('/user/delete/{id}',  [UserController::class, 'delete'])->name('user.delete');

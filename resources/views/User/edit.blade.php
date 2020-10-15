@@ -15,7 +15,7 @@
                     Edit User <a href="{{ route('user.index') }}" class="label label-primary pull-right">Back</a>
                 </div>
                 <div class="panel-body">
-                    <form action="{{ route('user.update', $user->userid) }}" method="POST" class="form-horizontal">
+                    <form action="{{ route('user.update', $user->id) }}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label class="control-label col-sm-2" >Title</label>
