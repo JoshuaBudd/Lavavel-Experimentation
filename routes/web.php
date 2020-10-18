@@ -2,7 +2,7 @@
 
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserController;  //Allows us to reference the UserController file without typing the full file path every time we reference it.
 
 /*
 |--------------------------------------------------------------------------

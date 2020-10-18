@@ -664,7 +664,7 @@
     <table id="206" parent="3" name="migrations">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
-    <table id="207" parent="3" name="user">
+    <table id="207" parent="3" name="users">
       <Collation>utf8mb4_unicode_ci</Collation>
     </table>
     <column id="208" parent="205" name="id">
@@ -739,9 +739,9 @@
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="222" parent="207" name="userid">
+    <column id="222" parent="207" name="id">
       <Position>1</Position>
-      <DataType>int(10) unsigned|0s</DataType>
+      <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
@@ -765,19 +765,27 @@
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="227" parent="207" name="user_email_unique">
+    <column id="227" parent="207" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+    </column>
+    <column id="228" parent="207" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+    </column>
+    <index id="229" parent="207" name="users_email_unique">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="228" parent="207" name="PRIMARY">
+    <key id="230" parent="207" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>userid</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="229" parent="207" name="user_email_unique">
+    <key id="231" parent="207" name="users_email_unique">
       <ColNames>email</ColNames>
-      <UnderlyingIndexName>user_email_unique</UnderlyingIndexName>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

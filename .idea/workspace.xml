@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805f0883-f133-4244-b97d-6fa4a95079cc" name="Default Changelist" comment="" />
+    <list default="true" id="805f0883-f133-4244-b97d-6fa4a95079cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/25518860-7d31-4470-8d24-cdaf63505f15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/25518860-7d31-4470-8d24-cdaf63505f15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -156,7 +164,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602707078290</updated>
-      <workItem from="1602707079314" duration="16964000" />
+      <workItem from="1602707079314" duration="18871000" />
+      <workItem from="1603047273035" duration="5650000" />
     </task>
     <servers />
   </component>
@@ -180,9 +189,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1790" y="570" width="316" height="267" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1400@0.0.2560.1400" timestamp="1602791644982" />
-    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1602804171331">
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1603051840854">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602804171331" />
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603051840854" />
   </component>
 </project>

@@ -12,7 +12,7 @@ class UserController extends Controller
 
     public function index(){
         //fetch all user data
-        $user = user::orderBy('id','desc')->get();
+        $user = user::orderBy('id','asc')->get();
 
         //pass user data to view and load list view
         return view('user.index', ['user' => $user]);
